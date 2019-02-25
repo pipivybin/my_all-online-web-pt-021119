@@ -13,9 +13,9 @@ def my_all?(collection)
     arr << yield(collection[i])
     i += 1
   end
-  if arr.include?("false")
-     "false"
-  else "true"
+  if arr.include?(false)
+     false
+  else true
 end
 end
 end
