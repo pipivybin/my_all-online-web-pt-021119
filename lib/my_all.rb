@@ -1,7 +1,14 @@
 require 'pry'
 
 def my_all?(collection)
-  binding.pry
+  if collection.class == Fixnum
+    if collection < 3
+      "true"
+    else "false"
+    end
+    
+  else
+    binding.pry
     i = 0
   arr = []
   while i < collection.length - 1
@@ -11,6 +18,7 @@ def my_all?(collection)
   if arr.include?("false")
      "false"
   else "true"
+end
 end
 end
 
