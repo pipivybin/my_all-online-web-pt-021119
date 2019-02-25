@@ -9,7 +9,7 @@ def my_all?(collection)
   else
     i = 0
   arr = []
-  while i < collection.length - 1
+  while i < collection.length
     arr << yield(collection[i])
     i += 1
   end
