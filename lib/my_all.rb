@@ -6,7 +6,6 @@ def my_all?(collection)
       "true"
     else "false"
     end
-    
   else
     binding.pry
     i = 0
