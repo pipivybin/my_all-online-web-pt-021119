@@ -7,7 +7,6 @@ def my_all?(collection)
     else "false"
     end
   else
-    binding.pry
     i = 0
   arr = []
   while i < collection.length - 1
